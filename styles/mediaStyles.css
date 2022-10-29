@@ -1,0 +1,93 @@
+@media only screen and (max-width: 1700px) {
+    header .links {
+        display: none !important;
+    }
+
+    .screen h1, .screen h1 b {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .screen p, span {
+        font-size: 24px !important;
+    }
+
+    .active-b, .unactive-b {
+        font-size: 18px;
+        padding: 20px 30px;
+    }
+
+    .address {
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+    .screen .right .shiba {
+        width: 100%;
+    }
+
+    .screen .right::after {
+        width: 100%;
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .screen .right {
+        display: none;
+    }
+
+    .screen .left {
+        width: 100%;
+    }
+
+    header, .screen {
+        padding: 30px 30px;
+    }
+
+    .address {
+        width: 100% !important;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    header .logo img {
+        width: 155px;
+    }
+
+    header .right button {
+        display: none;
+    }
+
+    header .right .hamburger {
+        display: block;
+    }
+
+    .screen .left span {
+        font-size: 15px !important;
+    }
+
+    .screen .left p {
+        font-size: 22px !important;
+        width: 100%;
+    }
+
+    .mob-elem {
+        display: block;
+        width: 100%;
+        height: 184px;
+        object-fit: contain;
+        margin: 30px 0px;
+    }
+
+    .btns {
+        flex-direction: column;
+    }
+
+    .screen {
+        height: 100%;
+        padding-top: 100px;
+    }
+}

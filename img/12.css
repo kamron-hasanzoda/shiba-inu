@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comfortaa";
+    font-weight: 500;
+}
+
+body {
+    background-color: #181818FF;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(34, 33, 33, .8);
+    padding: 10px 10px;
+    text-align: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.left {
+    display: flex;
+    gap: 40px;
+}
+
+.left .left-youtube {
+    width: 80px;
+    height: 80px;
+}
+
+.left .left-img {
+    transform: translate(10px, 25px);
+    height: 30px;
+    width: 30px;
+}
+
+.midle img {
+    height: 45px;
+
+}
+
+.midle input {
+    all: unset;
+    color: white;
+}
+
+.midle input::placeholder {
+    color: white;
+}
+
+.midle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    padding: 10px 20px;
+    gap: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 20px 10px;
+
+    position: fixed;
+    top: 100px;
+
+    width: 20%;
+    height: 100%;
+    background-color: rgba(34, 33, 33, .8);
+    overflow: scroll;
+}
+
+aside button {
+    width: 100%;
+    padding: 10px;
+    background: none;
+    color: white;
+    font-size: 22px;
+    text-transform: capitalize;
+    text-align: start;
+    border: none;
+    transition: .5s ease#383838FF;
+}
+
+aside button:hover {
+    background-color: #383838FF;
+}
+
+aside::-webkit-scrollbar {
+    background-color: transparent;
+    width: 10px;
+}
+
+aside::-webkit-scrollbar-thumb {
+    background-color: #383838FF;
+    border-radius: 30px;
+}
+
+.container {
+    width: 90%;
+    height: 300px;
+    margin-left: 25%;
+    margin-top: 100px;
+    display: flex;
+    gap: 0px 50px;
+    flex-wrap: wrap;
+}
+
+.box {
+    color: white;
+    width: 30%;
+    height: 500px;
+}
+
+.container2 {
+    width: 90%;
+    height: 300px;
+    margin-left: 25%;
+    margin-top: 100px;
+    display: flex;
+    gap: 0px 50px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    width: 75px;
+    height: 25px;
+    text-align: center;
+    color: white;
+    background-color: red;
+}
